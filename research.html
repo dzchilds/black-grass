@@ -1,0 +1,51 @@
+---
+layout: with-jumbotron
+title: people in the group
+root: "../"
+---
+
+<div class=row><div class="col-sm-12 col-md-12">
+  <p><span data-lorem="1p"></span></p>
+  <hr>
+</div></div> 
+
+<div class=row>
+  <div class="col-sm-2 col-md-2">
+    <h4 class="text-left">Core Project</h4>
+  </div>
+  <div class="col-sm-10 col-md-10">
+    <h4> </h4>
+    {% for project in site.data.projects.core-project %}
+	<div class="thumbnail right-caption">
+	  {% if project.image != null %}
+       <img src="{{ page.root }}assets/images/{{ project.image }}"
+	      width="150" height="150" class="img-rounded">
+      {% else %}
+        <img data-src="holder.js/150x150" alt="..." class="img-rounded">
+      {% endif %}
+      <div class="caption">
+        <h4>{{ project.stitle }}: {{ project.ltitle }}<small> ({{ project.when }})</small></h4>
+        <p>{{ project.description }}</p>
+        <h5><small>Who is involved? {% assign andcase = project.people | size | minus: 1 %}{% for collaborator in project.people %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == collaborator %}{% if person.url != null %}<a href="{{person.url}}">{{person.fname}}</a>{% else %}{{person.fname}}{% endif %}{{ assign in_people = true }}{% endif %}{% endfor %} ({{project.roles[i]}}){% if forloop.index < forloop.length %}{% if forloop.index < andcase %}, {% else %} and {% endif %}{% endif %}{% endfor %}</small></h5>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="text-center"><ul class="list-inline">
+      <li><small>PI: Primary Investigators</small></li>
+      <li><small>CI: Co-Investigators</small></li>
+      <li><small>PP: Project Partners</small></li>
+      <li><small>PD: Post Doctoral Research Associates</small></li>
+    </ul></div>
+    <br>
+  </div>
+</div>
+
+<div class=row>
+    <div class="col-sm-2 col-md-2">
+        <h4 class="text-left">Associated Research</h4>
+    </div>    
+    <div class="col-sm-10 col-md-10">
+        <h4 class="text-left"></h4>
+        <p>Other projects can go here...</p>
+    </div>
+</div>

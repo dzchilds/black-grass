@@ -1,0 +1,36 @@
+core-project:
+  - stitle: Work Package 1
+    ltitle: Molecular mechanisms underpinning the evolution of MHR in black-grass
+    when: "2014-2018"
+    image: grass-250-250.png
+    people: [redwards, pneve]
+    roles: [PI, CI]
+    description: <span data-lorem="10s"></span>
+  - stitle: Work Package 2
+    ltitle: Black-grass population monitoring and resistance audit
+    when: "2014-2018"
+    image: grass-250-250.png
+    people: [rpfreckleton, pneve, redwards]
+    roles: [PI, CI, CI]
+    description: <span data-lorem="10s"></span>
+  - stitle: Work Package 3
+    ltitle: Genetic architecture and inheritance of MHR
+    when: "2014-2018"
+    image: grass-250-250.png
+    people: [pneve, dzchilds, rpfreckleton, jdhadfield, redwards]
+    roles: [PI, CI, CI, CI, CI]
+    description: <span data-lorem="10s"></span>
+  - stitle: Work Package 4
+    ltitle: Eco-evolutionary modelling of black-grass populations
+    when: "2015-2018"
+    image: grass-250-250.png
+    people: [dzchilds, rpfreckleton, pneve, jdhadfield]
+    roles: [PI, CI, CI, CI]
+    description: <span data-lorem="10s"></span>
+  - stitle: Work Package 5
+    ltitle: Asessing wider impacts of resistance and management
+    when: "2016-2018"
+    image: grass-250-250.png
+    people: [kjnorris, rpfreckleton, dzchilds]
+    roles: [PI, CI, CI]
+    description: <span data-lorem="10s"></span>

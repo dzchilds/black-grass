@@ -1,0 +1,22 @@
+---
+layout: with-jumbotron
+title: Outputs from the group
+root: "../"
+---
+
+<div class="col-sm-12 col-md-12">
+    <div class=row>
+        <div class="col-sm-2 col-md-2">
+            <h3 class="text-left"> Papers</h3>
+        </div>
+        <div class="col-sm-10 col-md-10">
+            <h3> </h3>
+            {% for paper in site.data.outputs %}
+            <p> {% assign andcase = paper.authors | size | minus: 1 %}
+                {% for author in paper.authors %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == author %}{{ person.sname }}{{ assign in_people = true }}{% endif %}{% endfor %}{% if forloop.index < forloop.length %}{% if forloop.index < andcase %}, {% else %} and {% endif %}{% endif %}{% endfor %}
+                ({{ paper.year }}) <em>{{ paper.title }}</em> <strong>{{ paper.journal }}</strong>
+            </p>
+            {% endfor %}
+        </div>
+    </div>
+</div>

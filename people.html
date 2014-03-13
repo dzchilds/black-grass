@@ -1,0 +1,41 @@
+---
+layout: with-jumbotron
+title: people in the group
+root: "../"
+---
+
+<div class="row">
+<div class="col-sm-3 col-md-3 col-lg-2">
+  <!-- <div class="well"> -->
+    <h4>Project Team</h4><br>
+    {% for member in site.data.group.core-team %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}<p><i class="fa fa-user fa-lg fa-fw"></i>{{person.fname}}</p>{{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
+    <p><br></p>
+    <h4>Post Docs</h4><br>
+    {% for member in site.data.group.pdras %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}<p><i class="fa fa-user fa-lg fa-fw"></i>{{person.fname}}</p>{{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
+    <p><br></p>
+  <!-- </div> -->
+  <br>
+</div>
+<div class="col-sm-9 col-md-9 col-lg-10">
+  <h3>Positions Available</h3>
+  <hr>
+  <div class="thumbnail right-caption">
+    <img data-src="holder.js/120x120" alt="..." class="img-circle">
+    <div class="caption">
+      <h4>Post Doc <small>Starting May 2014</small></h4>
+      <p><span data-lorem="4s"></span><a href="#"> Find out more</a></p>
+    </div>
+  </div>
+  <h3>Project Team</h3>
+  <hr>
+  {% for member in site.data.group.core-team %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
+  <div class="thumbnail right-caption">
+    <img data-src="holder.js/120x120" alt="..." class="img-rounded">
+    <div class="caption">
+      <h4>{{ person.fname }}</h4><p>{{ person.about }}<a href="#"> Find out more</a></p>
+    </div>
+  </div>
+  {{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}    
+</div>
+
+</div>
