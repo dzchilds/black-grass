@@ -2,25 +2,27 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <div id="wrap">
-    {% include navbar.html%}
-    <div class="jumbotron masthead">
-      <div class="container">
-        <h2 class="text-center">BBSCRC-HGCA Black-grass Resistance Initiative <p><small>A clever strap line could go here...</small></p></h2>
-        <img id="masthead-img" src="{{ page.root }}assets/images/Black-grass logo.svg">
-      </div>
+    <div id="wrap">
+        {% include navbar.html%}
+        <div class="jumbotron masthead">
+            <div class="container">
+                <h1>BBSCRC-HGCA Black-grass Resistance Initiative <p><small>A clever strap line could go here...</small></p></h1>
+                <img id="masthead-img" src="{{ page.root }}assets/images/Black-grass logo.svg">
+            </div>
+        </div>
+<!--
+        <div class="jumbotron skinny hidden-xs">
+            <div class="container">
+            
+            </div>
+        </div>
+-->
+        <div class="container content-box">
+            {% include big-buttons.html%}
+            <p><hr class="hidden-xs"></p>
+            {{ content }}
+        </div>
     </div>
-    <div class="jumbotron skinny hidden-xs">
-      <div class="container">
-        {% include big-buttons.html%}
-      </div>
-    </div>
-    <div class="row hidden-lg hidden-md hidden-sm"><p><br></p></div>
-    <div class="container">
-      <!-- {% include big-buttons.html%} -->
-      {{ content }}
-    </div>
-  </div>
-  {% include footer.html%}
-  {% include scripts.html%}
+    {% include footer.html%}
+    {% include scripts.html%}
 </body></html>
