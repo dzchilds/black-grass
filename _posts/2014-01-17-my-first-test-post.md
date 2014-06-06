@@ -1,6 +1,7 @@
 ---
 layout: default
 title: The new website is live
+root: "./"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean laoreet pretium elit non sodales. Ut iaculis elit augue, eget scelerisque libero imperdiet ut. Donec dapibus adipiscing turpis, eget tristique tellus molestie id. 

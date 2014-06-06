@@ -2,14 +2,18 @@
 <html lang="en">
 {% include head.html %}
 <body>
-  <div id="wrap">
-    {% include navbar.html%}
-    <br></br>
-    <div class="container">
-      {% include big-buttons.html%}
-      {{ content }}
+    <div id="wrap">
+        {% include navbar.html%}
+        <div class="jumbotron masthead">
+            <div class="container">
+                <h1>BBSRC-HGCA Black-grass Resistance Initiative <p><small>A clever strap line could go here...</small></p></h1>
+                <img id="masthead-img" src="{{ site.url }}/assets/images/Black-grass logo.svg">
+            </div>
+        </div>
+        <div class="container content-box">
+            {{ content }}
+        </div>
     </div>
-  </div>
-  {% include footer.html%}
-  {% include scripts.html%}
+    {% include footer.html%}
+    {% include scripts.html%}
 </body></html>

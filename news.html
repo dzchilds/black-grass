@@ -1,0 +1,37 @@
+---
+layout: default
+title: News
+post-limit: 100
+root: "../"
+---
+
+<div class="row">
+<div class="col-sm-7 col-md-8">
+  <h3 class>News and Opportunities</h3>
+  <hr>
+  <ul class="list-unstyled">
+    {% for post in site.posts limit:page.post-limit %}
+      <li>
+        <h4><a data-toggle="modal" data-target="{{ forloop.index | prepend: "#modal_id" }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h4>
+        <p>{{ post.content }}</p>
+      </li>
+    {% endfor %}
+	<hr>
+	{% if site.posts.size > page.post-limit %}
+	  <p class="text-center"><a href="{{ site.url}}news/index.html">Old News</a></p>
+	{% endif %}
+  </ul>
+  <br>
+</div>
+<div class="col-sm-5 col-md-4">
+    <h3 class> <br></h3>
+    <hr>
+    <ul>
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+</div>
+</div>
