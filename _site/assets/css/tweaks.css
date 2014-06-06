@@ -53,7 +53,7 @@ body {
 .content-box {
     margin-top: -40px;
     position: relative;
-    z-index: 1000;
+    z-index: 600;
     background: rgb(255, 255, 255);
     padding-top: 30px;
     padding-bottom: 30px;
@@ -161,3 +161,14 @@ body {
 .twitter-modal .modal-dialog {
   width: 530px; /* max size allowed by the twitter widget = 520 */
 }
+
+/*
+.news-modal {
+  z-index: 1000;
+  width: 1000px;
+}
+
+.modal-backdrop {
+    z-index: 700;
+}
+*/

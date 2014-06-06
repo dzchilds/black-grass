@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+    <div id="wrap">
+        {% include navbar.html%}
+        <div class="jumbotron masthead">
+            <div class="container">
+                <h1>BBSRC-HGCA Black-grass Resistance Initiative <p><small>A clever strap line could go here...</small></p></h1>
+                <img id="masthead-img" src="{{ site.url }}/assets/images/Black-grass logo.svg">
+            </div>
+        </div>
+        <div class="container content-box">
+            {{ content }}
+        </div>
+    </div>
+    {% for post in site.posts %}
+    <div class="modal news-modal" id="{{ forloop.index | prepend: "modal_id" }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">{{ post.title }}</h4>
+          </div>
+          <div class="modal-body">
+            {{ post.content }}
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+    <div class="modal twitter-modal" id="dzc-tweets" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Tweets</h4>
+      </div>
+      <div class="modal-body">
+          <a class="twitter-timeline" href="https://twitter.com/dylan_childs" data-widget-id="442323518550585344" data-chrome="nofooter noheader noborders transparent" width="520">Tweets by @dylan_childs</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+      <div class="modal-footer">
+        <a type="button" class="btn btn-default" href="https://twitter.com/dylan_childs"><i class="fa fa-twitter fa-lg fa-fw"></i>Follow</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    {% include footer.html%}
+    {% include scripts.html%}
+</body></html>

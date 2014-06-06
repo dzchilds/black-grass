@@ -1,19 +1,19 @@
 ---
-layout: default
+layout: with-news
 title: News
 post-limit: 100
 root: "../"
 ---
 
 <div class="row">
-<div class="col-sm-7 col-md-8">
-  <h3 class>News and Opportunities</h3>
+<div class="col-sm-7 col-md-7">
+  <h4 class>News and Opportunities</h4>
   <hr>
   <ul class="list-unstyled">
     {% for post in site.posts limit:page.post-limit %}
       <li>
         <h4><a data-toggle="modal" data-target="{{ forloop.index | prepend: "#modal_id" }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h4>
-        <p>{{ post.content }}</p>
+        <p>{{ post.excerpt }}</p>
       </li>
     {% endfor %}
 	<hr>
@@ -23,15 +23,9 @@ root: "../"
   </ul>
   <br>
 </div>
-<div class="col-sm-5 col-md-4">
-    <h3 class> <br></h3>
+<div class="col-sm-5 col-md-5">
+    <h4 class>Twitter Timeline</h4>
     <hr>
-    <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-    </ul>
+    <a class="twitter-timeline" href="https://twitter.com/dylan_childs" data-widget-id="442323518550585344" data-chrome="noheader noborders transparent" width="520">Tweets by @dylan_childs</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 </div>
