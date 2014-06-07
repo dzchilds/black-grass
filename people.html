@@ -28,9 +28,15 @@ root: "../"
   <hr>
   {% for member in site.data.group.core-team %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
   <div class="thumbnail right-caption">
-    <img data-src="holder.js/120x120" alt="..." class="img-rounded">
+	  {% if person.image != null %}
+       <img src="{{ page.root }}assets/images/{{ person.image }}"
+	      width="150" height="150" class="img-rounded">
+      {% else %}
+        <img data-src="holder.js/150x150" alt="..." class="img-rounded">
+      {% endif %}
     <div class="caption">
-      <h4>{{ person.fname }}</h4><p>{{ person.about }}<a href="#"> Find out more</a></p>
+      <h4>{{ person.fname }}<small> {{ person.position }}, {{ person.institution }}</small></h4>
+      <p>{{ person.about }}<a href={{ person.url }}> Find out more</a></p>
     </div>
   </div>
   {{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}    

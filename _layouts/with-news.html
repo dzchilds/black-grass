@@ -6,7 +6,7 @@
         {% include navbar.html%}
         <div class="jumbotron masthead">
             <div class="container">
-                <h1>BBSRC-HGCA Black-grass Resistance Initiative <p><small>A clever strap line could go here...</small></p></h1>
+                <h1>BBSRC-HGCA Black-grass Resistance Initiative <p><small>Understanding herbicide resistance from the molecular to the farm scale</small></p></h1>
                 <img id="masthead-img" src="{{ site.url }}/assets/images/Black-grass logo.svg">
             </div>
         </div>
@@ -14,6 +14,7 @@
             {{ content }}
         </div>
     </div>
+    
     {% for post in site.posts %}
     <div class="modal news-modal" id="{{ forloop.index | prepend: "modal_id" }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -32,6 +33,7 @@
       </div>
     </div>
     {% endfor %}
+    
     <div class="modal twitter-modal" id="dzc-tweets" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">

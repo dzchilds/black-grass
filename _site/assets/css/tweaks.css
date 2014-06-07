@@ -148,6 +148,13 @@ body {
     margin-top: 0px;   
 }
 
+/* change the link colours */
+a {
+    color: #4e8d16;
+    text-decoration: none;
+}
+
+
 /* define a modal to wrap the Twitter widget */ 
 .twitter-modal .modal-body {
     margin: 0px;
@@ -162,13 +169,8 @@ body {
   width: 530px; /* max size allowed by the twitter widget = 520 */
 }
 
-/*
-.news-modal {
-  z-index: 1000;
-  width: 1000px;
+/* navbar */
+.navbar-inverse {
+    background-color: #95a07b;
 }
 
-.modal-backdrop {
-    z-index: 700;
-}
-*/

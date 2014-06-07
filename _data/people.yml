@@ -7,11 +7,14 @@
 - key: redwards
   sname: R. Edwards
   fname: Rob Edwards
-  url:  http://www.york.ac.uk/biology/research/plant-biology/robert-edwards
-  about: <span data-lorem="7s"></span>
+  image: RobEdwards.png
+  position: Head of School of Agriculture, Food and Rural Development
+  institution: University of Newcastle
+  url:  http://www.ncl.ac.uk/afrd/staff/profile/robert.edwards
+  about: My interests are focused on the biotransformation of herbicides and other biologically active chemicals in crops and weeds and how this can be used for biotechnological applications and in defining selective toxicity and resistance in plants.
 - key: rpfreckleton
   sname: R. P. Freckleton
-  fname: Rob Feckleton
+  fname: Rob Freckleton
   url:  http://www.shef.ac.uk/aps/staff-and-students/acadstaff/freckleton
   about: <span data-lorem="7s"></span>
 - key: jdhadfield
@@ -27,15 +30,21 @@
 - key: pneve
   sname: P. Neve
   fname: Paul Neve
-  url:  null
-  about: <span data-lorem="7s"></span>
+  image: PaulNeve.png
+  position: Senior Research Scientist, Weed Ecology & Evolution
+  institution: Rothamsted Research
+  url:  http://www.rothamsted.ac.uk/people/nevep
+  about: With a particular interest in herbicide resistance, my research is focussed on understanding the ecological and evolutionary processes that result in the establishment, persistence and spread of weed populations in agroecosystems. Working with weed populations, simulation models and model organisms, I investigate strategies for ‘evolution-free’ management of agricultural weeds.
 - key: kjnorris
   sname: K. Norris
   fname: Ken Norris
+  image: KenNorris.jpg
+  position: Director of the Centre for Agri-Environmental Research
+  institution: University of Reading
   url:  http://www.reading.ac.uk/caer/staff_ken_norris.html
-  about: <span data-lorem="7s"></span>
+  about: My research focuses on the inter-relationships between land-use, biodiversity and ecosystem services. I am particularly interested in assessing the environmental risks of agricultural systems, and understanding how these risks might be managed. 
 - key: missing
   sname: null
-  fname: Comming Soon
+  fname: Coming Soon
   url:  null
-  about: null
+  about: <span data-lorem="7s"></span>
