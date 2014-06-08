@@ -2,8 +2,19 @@
 - key: dzchilds
   sname: D. Z. Childs
   fname: Dylan Childs
+  image: DylanChilds.jpg
+  position: NERC Research Fellow, Department of Animal and Plant Sciences
+  institution: Univeristy of Sheffield
   url: http://www.shef.ac.uk/aps/staff-and-students/acadstaff/childs
-  about: <span data-lorem="7s"></span>
+  about: I am a population biologist with interests at both the pure and applied ends of the spectrum. I follow an interdisciplinary approach, developing data-driven models to understand population dynamics and natural selection in laboratory and free-living populations. He am particularly keen to understand how demographic, environmental and ecological processes interact to shape selection on life histories.
+- key: dcomont
+  sname: D. Comont
+  fname: David Comont
+  image: DavidComont.jpg
+  position: Post Doctoral Research Associate, Weed Ecology & Evolution
+  institution: Rothamsted Research
+  url: http://www.rothamsted.ac.uk/people/comontd
+  about: My principle research interests are the responses and resilience of plant communities facing environmental stresses, and the longer term implications of these. Previous research has focussed on factors affecting the productivity of the forage perennial ryegrass (Lolium perenne) at sites across Europe. I will be investigating Blackgrass populations across the UK, and developing research which can be applied to managing this weed in the future. 
 - key: redwards
   sname: R. Edwards
   fname: Rob Edwards
@@ -15,13 +26,27 @@
 - key: rpfreckleton
   sname: R. P. Freckleton
   fname: Rob Freckleton
+  image: RobFreckleton.jpg
+  position: Professor of Population Biology, Department of Animal and Plant Sciences
+  institution: Univeristy of Sheffield
   url:  http://www.shef.ac.uk/aps/staff-and-students/acadstaff/freckleton
-  about: <span data-lorem="7s"></span>
+  about: I am a population ecologist and evolutionary biologist. I have interests in plant population dynamics and modelling, with special interest in annual weeds. The BGRI project builds on the density-structured modelling approach that my group have recently developed.
 - key: jdhadfield
   sname: J. D. Hadfield
   fname: Jarrod Hadfield
+  image: JarrodHadfield.jpg
+  position: Royal Society University Research Fellow
+  institution: University of Edinburgh
+  url:  http://jarrod.bio.ed.ac.uk
+  about: I am an evolutionary biologist working mainly in the area of quantitative genetics; the study of inheritance, selection and evolution of complex traits. I use a combination of theory, statistical inference and experimentation in order to address questions regarding the form of natural selection and the nature of heritable variation.
+- key: hhicks
+  sname: H. Hicks
+  fname: Helen Hicks
+  image: HelenHicks.jpg
+  position: Post Doctoral Research Associate, Department of Animal and Plant Sciences
+  institution: University of Sheffield
   url:  null
-  about: <span data-lorem="7s"></span>
+  about: My research interests centre on sustainable agricultural practices and balancing food production with biodiversity conservation. Agricultural policy changes quickly, and the resulting changes to land-use patterns and land management practices can have wide-ranging ecological impacts. I believe strongly in the need to study, quantify and manage these impacts and the importance of knowledge exchange between science, policy makers and landowners.
 - key: ljones
   sname: L. Jones
   fname: Louise Jones

@@ -6,7 +6,7 @@ root: "../"
 
 <div class="row">
 <div class="col-sm-3 col-md-3 col-lg-3">
-    <h4>Project Team</h4><br>
+    <h4>Primary Investigators</h4><br>
     {% for member in site.data.group.core-team %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}<p><i class="fa fa-user fa-lg fa-fw"></i>{{person.fname}}</p>{{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
     <p><br></p>
     <h4>Post Docs</h4><br>
@@ -15,6 +15,7 @@ root: "../"
     <br>
 </div> 
 <div class="col-sm-9 col-md-9 col-lg-9">
+<!--
   <h3>Positions Available</h3>
   <hr>
   <div class="thumbnail right-caption">
@@ -26,13 +27,14 @@ root: "../"
   </div>
   <h3>Project Team</h3>
   <hr>
-  {% for member in site.data.group.core-team %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
+-->
+  {% for member in site.data.group.all-people %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
   <div class="thumbnail right-caption">
 	  {% if person.image != null %}
        <img src="{{ page.root }}assets/images/{{ person.image }}"
-	      width="150" height="150" class="img-rounded">
+	      width="130" height="130" class="img-rounded">
       {% else %}
-        <img data-src="holder.js/150x150" alt="..." class="img-rounded">
+        <img data-src="holder.js/130x130" alt="..." class="img-rounded">
       {% endif %}
     <div class="caption">
       <h4>{{ person.fname }}<small> {{ person.position }}, {{ person.institution }}</small></h4>

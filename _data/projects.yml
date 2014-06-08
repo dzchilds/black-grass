@@ -2,7 +2,7 @@ core-project:
   - stitle: Work Package 1
     ltitle: Molecular mechanisms underpinning the evolution of MHR in black-grass
     when: "2014-2018"
-    image: grass-250-250.png
+    image: WP1_artwork.jpg
     people: [redwards, pneve]
     roles: [PI, CI]
     description: <span data-lorem="10s"></span>
@@ -23,7 +23,7 @@ core-project:
   - stitle: Work Package 4
     ltitle: Eco-evolutionary modelling of black-grass populations
     when: "2015-2018"
-    image: grass-250-250.png
+    image: WP4_artwork.jpg
     people: [dzchilds, rpfreckleton, pneve, jdhadfield]
     roles: [PI, CI, CI, CI]
     description: <span data-lorem="10s"></span>

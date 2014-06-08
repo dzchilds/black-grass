@@ -19,9 +19,9 @@ root: "../"
 	<div class="thumbnail right-caption">
 	  {% if project.image != null %}
        <img src="{{ page.root }}assets/images/{{ project.image }}"
-	      width="150" height="150" class="img-rounded">
+	      width="200" height="100" class="img-rounded">
       {% else %}
-        <img data-src="holder.js/150x150" alt="..." class="img-rounded">
+        <img data-src="holder.js/200x100" alt="..." class="img-rounded">
       {% endif %}
       <div class="caption">
         <h4>{{ project.stitle }}: {{ project.ltitle }}<small> ({{ project.when }})</small></h4>
