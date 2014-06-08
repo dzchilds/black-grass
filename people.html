@@ -12,6 +12,9 @@ root: "../"
     <h4>Post Docs</h4><br>
     {% for member in site.data.group.pdras %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}<p><i class="fa fa-user fa-lg fa-fw"></i>{{person.fname}}</p>{{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
     <p><br></p>
+    <h4>Research Assistants</h4><br>
+    {% for member in site.data.group.ras %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}<p><i class="fa fa-user fa-lg fa-fw"></i>{{person.fname}}</p>{{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
+    <p><br></p>
     <br>
 </div> 
 <div class="col-sm-9 col-md-9 col-lg-9">

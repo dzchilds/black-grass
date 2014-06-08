@@ -14,7 +14,12 @@
   position: Post Doctoral Research Associate, Weed Ecology & Evolution
   institution: Rothamsted Research
   url: http://www.rothamsted.ac.uk/people/comontd
-  about: My principle research interests are the responses and resilience of plant communities facing environmental stresses, and the longer term implications of these. Previous research has focussed on factors affecting the productivity of the forage perennial ryegrass (Lolium perenne) at sites across Europe. I will be investigating Blackgrass populations across the UK, and developing research which can be applied to managing this weed in the future. 
+  about: My principle research interests are the responses and resilience of plant communities facing environmental stresses, and the longer term implications of these. Previous research has focussed on factors affecting the productivity of the forage perennial ryegrass (Lolium perenne) at sites across Europe. I will be investigating Blackgrass populations across the UK, and developing research which can be applied to managing this weed in the future.
+- key: lcrook
+  sname: L. Crook
+  fname: Laura Crook
+  url: http://www.rothamsted.ac.uk/people/crookl
+  about: <span data-lorem="7s"></span>
 - key: redwards
   sname: R. Edwards
   fname: Rob Edwards
@@ -60,6 +65,11 @@
   institution: Rothamsted Research
   url:  http://www.rothamsted.ac.uk/people/nevep
   about: With a particular interest in herbicide resistance, my research is focussed on understanding the ecological and evolutionary processes that result in the establishment, persistence and spread of weed populations in agroecosystems. Working with weed populations, simulation models and model organisms, I investigate strategies for ‘evolution-free’ management of agricultural weeds.
+- key: lnguyen
+  sname: L. Nguyen
+  fname: Lieselot Nguyen
+  url: http://www.rothamsted.ac.uk/people/nguyenl
+  about: <span data-lorem="7s"></span>
 - key: kjnorris
   sname: K. Norris
   fname: Ken Norris

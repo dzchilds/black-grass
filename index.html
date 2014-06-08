@@ -5,7 +5,7 @@ post-limit: 3
 root: "./"
 ---
 
-<div class="row hidden-xs">
+<div class="row">
     <div class="col-sm-6 col-md-6">
         <div class="infopanel">
             <a href="{{site.url}}/people"><span id="panellink" ></span></a>
@@ -30,6 +30,16 @@ root: "./"
 
 <div class="row">
     <div class="col-sm-6">
+        <div class="infopanel">
+            <a href="{{page.root}}research"><span id="panellink" ></span></a>
+            <i class="fa fa-bar-chart-o fa-rotate-90 fa-2x fa-fw"></i>
+            <div class="desc">
+                <h4>Research</h4>
+                <p>Pulvinar elementum integer enim neque volutpat ac tincidunt. Blandit massa enim nec dui nunc mattis enim ut. Diam quis enim lobortis scelerisque fermentum dui.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
         <br>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -44,9 +54,9 @@ root: "./"
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
                 <div class="item active">
-                    <img  src="http://placehold.it/600x300/999999/cccccc">
+                    <img src="{{ site.url }}/assets/images/WP_overview.jpg" width="600" height="300">
                     <div class="carousel-caption">
-                        <h5>Test Slide</h5>
+                        <h4>Black-grass Resistance Initiative</h4>
                     </div>
                 </div>
                 {% for project in site.data.projects.core-project %}
@@ -57,8 +67,8 @@ root: "./"
                     <img  src="http://placehold.it/600x300/999999/cccccc">
                     {% endif %}
                     <div class="carousel-caption">
-                        <h5>{{ project.stitle }}</h5>
-                        <p>{{ project.ltitle }}</p>
+                        <h4>{{ project.stitle }}</h4>
+                        <h5>{{ project.ltitle }}</h5>
                     </div>
                 </div>
                 {% endfor %}
@@ -73,52 +83,41 @@ root: "./"
         </div>
         <br><br>
     </div>
-    <div class="col-sm-6">
-        <div class="infopanel">
-            <a href="{{page.root}}research"><span id="panellink" ></span></a>
-            <i class="fa fa-bar-chart-o fa-rotate-90 fa-2x fa-fw"></i>
-            <div class="desc">
-                <h4>Research</h4>
-                <p>Pulvinar elementum integer enim neque volutpat ac tincidunt. Blandit massa enim nec dui nunc mattis enim ut. Diam quis enim lobortis scelerisque fermentum dui.</p>
-            </div>
-        </div>
-    </div>
 </div>
 
 
 <div class="row">
-<div class="col-sm-7 col-md-8">
-  <h3 class>Recent News</h3>
-  <hr>
-  <ul class="list-unstyled">
-    {% for post in site.posts limit:page.post-limit %}
-      <li>
-        <h4><a data-toggle="modal" data-target="{{ forloop.index | prepend: "#modal_id" }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h4>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-	<hr>
-	{% if site.posts.size > page.post-limit %}
-	  <p class="text-center"><a href="{{ site.url}}news/index.html">Old News</a></p>
-	{% endif %}
-  </ul>
-  <br>
-</div>
-<div class="col-sm-5 col-md-4">
-  <div class="well">
-    <h3> Contact us </h3>
-    <br> 
-    <p class="text-left"><a data-toggle="modal" data-target="#dzc-tweets"><i class="fa fa-twitter-square fa-lg fa-fw"></i></a>&nbsp;dylan_childs</p>
-    <p class="text-left"><i class="fa fa-skype fa-lg fa-fw"></i>&nbsp;dylan.childs</p>
-    <p class="text-left"><i class="fa fa-google-plus-square fa-lg fa-fw"></i>&nbsp;d.childs@sheffield.ac.uk</p>
-    <p class="text-left"><i class="fa fa-phone fa-lg
-	fa-fw"></i>&nbsp;(+44)&nbsp;(0)114&nbsp;222&nbsp;4313</p>
-	<br>
-	<p class="text-left">
-       <small>Department of Animal and Plant Sciences<br>University of Sheffield<br>Sheffield, S10 2TN, UK</small>
-	</p>
-  </div>
-</div>
+    <div class="col-sm-7 col-md-8">
+        <h3>Recent News</h3>
+        <hr>
+        <ul class="list-unstyled">
+            {% for post in site.posts limit:page.post-limit %}
+            <li>
+                <h4><a data-toggle="modal" data-target="{{ forloop.index | prepend: "#modal_id" }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h4>
+                <p>{{ post.excerpt }}</p>
+            </li>
+            {% endfor %}
+            <hr>
+            {% if site.posts.size > page.post-limit %}
+            <p class="text-center"><a href="{{ site.url}}news/index.html">Old News</a></p>
+            {% endif %}
+        </ul>
+        <br>
+    </div>
+    <div class="col-sm-5 col-md-4">
+        <h3>Contact BGRI</h3>
+        <br>
+        <div class=well>
+        <p class="text-left"><i class="fa fa-twitter-square fa-lg fa-fw"></i><a data-toggle="modal" data-target="#dzc-tweets">&nbsp;@BlackGrassRI</a></p>
+        <p class="text-left"><i class="fa fa-envelope fa-lg fa-fw"></i>&nbsp;paul.neve@rothamsted.ac.uk</p>
+        <p class="text-left"><i class="fa fa-phone fa-lg fa-fw"></i>&nbsp;(+44)1582&nbsp;763&nbsp;133 ext:&nbsp;2310</p>
+        <br>
+        <p class="text-left">
+           c/o Paul Neve<br>Rothamsted Research<br>West Common<br>Harpenden<br>Hertfordshire<br>AL5 2JQ
+        </p>
+        </div>
+      </div>
+    </div>
 </div>
 
 <div class="row">

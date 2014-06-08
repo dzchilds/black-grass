@@ -9,14 +9,14 @@ core-project:
   - stitle: Work Package 2
     ltitle: Black-grass population monitoring and resistance audit
     when: "2014-2018"
-    image: grass-250-250.png
+    image: null
     people: [rpfreckleton, pneve, redwards]
     roles: [PI, CI, CI]
     description: <span data-lorem="10s"></span>
   - stitle: Work Package 3
     ltitle: Genetic architecture and inheritance of MHR
     when: "2014-2018"
-    image: grass-250-250.png
+    image: null
     people: [pneve, dzchilds, rpfreckleton, jdhadfield, redwards]
     roles: [PI, CI, CI, CI, CI]
     description: <span data-lorem="10s"></span>
@@ -30,7 +30,7 @@ core-project:
   - stitle: Work Package 5
     ltitle: Asessing wider impacts of resistance and management
     when: "2016-2018"
-    image: grass-250-250.png
+    image: WP5_artwork.jpg
     people: [kjnorris, rpfreckleton, dzchilds]
     roles: [PI, CI, CI]
     description: <span data-lorem="10s"></span>
