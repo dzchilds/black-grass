@@ -18,8 +18,11 @@
 - key: lcrook
   sname: L. Crook
   fname: Laura Crook
+  image: LauraCrook.jpg
+  position: Research Technician, Weed Ecology & Evolution
+  institution: Rothamsted Research
   url: http://www.rothamsted.ac.uk/people/crookl
-  about: <span data-lorem="7s"></span>
+  about: I have previously worked at the University of Sheffield as a research technician undertaking field experiments on the environmental interactions between seed size and seedling traits in different habitat types. I am excited to join Rothamsted Research as a research technician and keen to manage the glasshouse experiments that will investigate herbicide resistance in black grass whilst ensuring that information gathered from the project is fed back into the farming community. I am also interested is how science can interact with policy.
 - key: redwards
   sname: R. Edwards
   fname: Rob Edwards

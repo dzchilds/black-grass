@@ -5,32 +5,34 @@ core-project:
     image: WP1_artwork.jpg
     people: [redwards, pneve]
     roles: [PI, CI]
-    description: <span data-lorem="10s"></span>
+    description:  "The primary output of the work package will be the generation  of diagnostic tools which will allow herbicide resistance diagnostics and auditing in the field and the study of the evolutionary development of metabolic herbicide resistance  (MHR) in the field. This work-package will address the following: 1) What is the level of variation in the  MHR genotype and phenotype in different resistant black-grass populations and what can this tell us about the evolutionary origins of the trait? 2) Can this information be used to develop molecular diagnostic kits which can reliably identify MHR populations in the field and rapidly distinguish these from target site resistant weeds for control purposes? 3) How many stress-response pathways are activated during the acquisition of MHR and what is their relationship to endogenous signalling responses?"
   - stitle: Work Package 2
     ltitle: Black-grass population monitoring and resistance audit
     when: "2014-2018"
-    image: null
+    image: WP2_artwork.jpg
     people: [rpfreckleton, pneve, redwards]
     roles: [PI, CI, CI]
-    description: <span data-lorem="10s"></span>
+    description: "The primary output of the work package will be a baseline dataset on weed abundance, MHR and TSR status, and historical farm management. This work-package will address the following: 1) Conduct surveys to provide the long-term data for parameterising and validating models of black-grass dynamics. 2) Perform a resistance audit across the range of black-grass distribution for key herbicide modes of action.
+"
   - stitle: Work Package 3
     ltitle: Genetic architecture and inheritance of MHR
     when: "2014-2018"
     image: null
     people: [pneve, dzchilds, rpfreckleton, jdhadfield, redwards]
     roles: [PI, CI, CI, CI, CI]
-    description: <span data-lorem="10s"></span>
+    description: "Research on Australian populations of rigid ryegrass (Lolium rigidum) has clearly established that naive populations harbour significant additive genetic variation for MHR. In selection experiments, this standing variation can be selected and recombined to rapidly increase the herbicide resistance phenotype. Adaptation to herbicides is not cost-free and significant trade-offs between resistance and plant fitness in the absence of herbicide have been demonstrated. In this work package, evolutionary quantitative genetics approaches will be adopted to determine the heritability of non-target site herbicide resistance, as well as the genetic correlations between resistance and other fitness-related life history traits. This work-package will address the following: 1) Determine the quantitative genetic architecture of metabolic herbicide resistance in selected UK black-grass populations. 2) To explore trade-offs between defence (MHR/stress tolerance), growth and reproduction in black-grass populations."
+
   - stitle: Work Package 4
     ltitle: Eco-evolutionary modelling of black-grass populations
     when: "2015-2018"
     image: WP4_artwork.jpg
     people: [dzchilds, rpfreckleton, pneve, jdhadfield]
     roles: [PI, CI, CI, CI]
-    description: <span data-lorem="10s"></span>
+    description: "The primary output of the work package will be a data-driven assessment of the evolutionary potential of black-grass populations for MHR evolution, enabling the wider implications of management to be addressed. A general model describing the density and size-/age-structured dynamics of local weed populations will underpin our analyses. This will couple two sub-models. The first will capture the among-year dynamics of the seed bank, derived from classic ecological models of annual weeds. This will allow us to evaluate the impact of historic patterns of selection on the evolutionary potential of the seed bank. The second sub-model will be based on the integral projection model, which describes the within-season dynamics of newly established weeds in terms of individual-level processes. This work-package will address the following: 1) Develop a novel integrated modelling framework to explore the joint eco-evolutionary dynamics of weed populations in agri-ecosystems. 2) Predict the management implications of interactions between ecological and evolutionary processes. 3) Evaluate the robustness of these predictions to assumptions about spatial processes, stochasticity and genetic architecture."
   - stitle: Work Package 5
     ltitle: Asessing wider impacts of resistance and management
     when: "2016-2018"
     image: WP5_artwork.jpg
     people: [kjnorris, rpfreckleton, dzchilds]
     roles: [PI, CI, CI]
-    description: <span data-lorem="10s"></span>
+    description: "The primary output of the work package will be potential solutions to resistance management that also minimize adverse economic or environmental impacts. To achieve this, we plan to explore the economic consequences of resistance management strategies using farm-scale cost-benefit analysis. Environmental impacts of resistance management strategies will be analysed using approaches that enable us to consider farmland biodiversity, water quality and greenhouse gas emissions. This work-package will address the following: 1) Develop future scenarios of land-use change and management, including potential strategies to minimize or reduce herbicide resistance. 2) Translate these scenarios into the land-use and management changes we would expect to see in the countryside. 3) Assess the potential impacts of these scenarios on herbicide resistance, farm economics and the environment. 4) Identify significant risks in terms of herbicide resistance, farm economics or the environment associated with each scenario, design management responses and re-assess risks."
