@@ -98,9 +98,8 @@ root: "./"
                 <p>{{ post.excerpt }}</p>
             </li>
             {% endfor %}
-            <hr>
             {% if site.posts.size > page.post-limit %}
-            <p class="text-center"><a href="{{ site.url}}news/index.html">Old News</a></p>
+            <p class="text-center"><a href="{{ site.url}}/news/index.html">Old News</a></p>
             {% endif %}
         </ul>
         <br>
@@ -121,6 +120,7 @@ root: "./"
 </div>
 
 <div class="row">
+    <br>
     <p><img src="{{ site.url }}/assets/images/Universities.png" width="600" height="100" class="img-responsive center-block"></p>
 </div>
 
