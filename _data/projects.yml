@@ -17,7 +17,7 @@ core-project:
   - stitle: Work Package 3
     ltitle: Genetic architecture and inheritance of MHR
     when: "2014-2018"
-    image: null
+    image: WP3_artwork.jpg
     people: [pneve, dzchilds, rpfreckleton, jdhadfield, redwards]
     roles: [PI, CI, CI, CI, CI]
     description: "Research on Australian populations of rigid ryegrass (Lolium rigidum) has clearly established that naive populations harbour significant additive genetic variation for MHR. In selection experiments, this standing variation can be selected and recombined to rapidly increase the herbicide resistance phenotype. Adaptation to herbicides is not cost-free and significant trade-offs between resistance and plant fitness in the absence of herbicide have been demonstrated. In this work package, evolutionary quantitative genetics approaches will be adopted to determine the heritability of non-target site herbicide resistance, as well as the genetic correlations between resistance and other fitness-related life history traits. This work-package will address the following: 1) Determine the quantitative genetic architecture of metabolic herbicide resistance in selected UK black-grass populations. 2) To explore trade-offs between defence (MHR/stress tolerance), growth and reproduction in black-grass populations."
