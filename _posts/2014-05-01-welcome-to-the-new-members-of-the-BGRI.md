@@ -3,7 +3,7 @@ layout: default
 title: Welcome to the new members of the BGRI
 ---
 
-Three new mambers of the BGRI have started this month. TOgether they will be overseeing the resistance audit and field-scale monitoring of black-grass densities across our netowrk of farms.
+Three new mambers of the BGRI have started this month. Together they will be overseeing the resistance audit and field-scale monitoring of black-grass densities across our netowrk of farms.
 
 ##### Laura Crook 
 
