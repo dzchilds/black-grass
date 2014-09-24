@@ -13,4 +13,4 @@ Another major goal of the BGRI this summer has been to collect black-grass seed 
 
 Since returning from the field, our attention turns to the un-enviable task of weighing the seed samples, and carefully cleaning them to remove immature and infertile seeds ready to begin resistance testing.
 
-<p><img src="/assets/news/SeedSampling2014.jpg" class="img-responsive" alt="Laura sampling black-grass seed"></p>
+<p><img src="C:\Users\Helen\Documents\GitHub\black-grass\assets\news\SeedSampling2014.jpg" class="img-responsive" alt="Laura sampling black-grass seed"></p>
