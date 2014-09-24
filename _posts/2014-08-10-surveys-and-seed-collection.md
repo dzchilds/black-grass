@@ -7,7 +7,7 @@ After a busy field season mapping black-grass densities and collecting seeds, th
 
 Starting at the foot of the Chilterns in South Oxfordshire and winding our way up through 11 counties, we visited 71 farms and mapped a total of 138 fields of black-grass, to end up on the edge of the North Yorkshire Moors. We surveyed everything from a sea of black-grass with well over 100 plants per m², to a clean wheat field with only a few wisps of the troublesome weed.
 
-<p><img src="C:\Users\Helen\Documents\GitHub\black-grass\assets\news\SeedSampling2014.jpg" class="img-responsive" alt="Laura collecting seeds for resistance testing"></p>
+<p><img src="C:\Users\Helen\Documents\GitHub\black-grass\assets\news\SeedSampling2014.png" class="img-responsive" alt="Laura collecting seeds for resistance testing"></p>
 
 The next step for this part of the project is to gather management information for each of the fields that were surveyed, to try and tease apart links between tillage, herbicide application, crop rotation and the prevalence of black-grass and evolving herbicide resistance.
 
