@@ -30,7 +30,7 @@ core-project:
     roles: [PI, CI, CI, CI]
     description: "The primary output of the work package will be a data-driven assessment of the evolutionary potential of black-grass populations for MHR evolution, enabling the wider implications of management to be addressed. A general model describing the density and size-/age-structured dynamics of local weed populations will underpin our analyses. This will couple two sub-models. The first will capture the among-year dynamics of the seed bank, derived from classic ecological models of annual weeds. This will allow us to evaluate the impact of historic patterns of selection on the evolutionary potential of the seed bank. The second sub-model will be based on the integral projection model, which describes the within-season dynamics of newly established weeds in terms of individual-level processes. This work-package will address the following: 1) Develop a novel integrated modelling framework to explore the joint eco-evolutionary dynamics of weed populations in agri-ecosystems. 2) Predict the management implications of interactions between ecological and evolutionary processes. 3) Evaluate the robustness of these predictions to assumptions about spatial processes, stochasticity and genetic architecture."
   - stitle: Work Package 5
-    ltitle: Asessing wider impacts of resistance and management
+    ltitle: Assessing wider impacts of resistance and management
     when: "2016-2018"
     image: WP5_artwork.jpg
     people: [kjnorris, rpfreckleton, dzchilds]

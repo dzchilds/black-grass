@@ -6,7 +6,7 @@
   position: NERC Research Fellow, Department of Animal and Plant Sciences
   institution: Univeristy of Sheffield
   url: http://www.shef.ac.uk/aps/staff-and-students/acadstaff/childs
-  about: I am a population biologist with interests at both the pure and applied ends of the spectrum. I follow an interdisciplinary approach, developing data-driven models to understand population dynamics and natural selection in laboratory and free-living populations. He am particularly keen to understand how demographic, environmental and ecological processes interact to shape selection on life histories.
+  about: I am a population biologist with interests at both the pure and applied ends of the spectrum. I follow an interdisciplinary approach, developing data-driven models to understand population dynamics and natural selection in laboratory and free-living populations. I am particularly keen to understand how demographic, environmental and ecological processes interact to shape selection on key ecological traits.
 - key: dcomont
   sname: D. Comont
   fname: David Comont
@@ -22,7 +22,7 @@
   position: Research Technician, Weed Ecology & Evolution
   institution: Rothamsted Research
   url: http://www.rothamsted.ac.uk/people/crookl
-  about: I have previously worked at the University of Sheffield as a research technician undertaking field experiments on the environmental interactions between seed size and seedling traits in different habitat types. I am excited to join Rothamsted Research as a research technician and keen to manage the glasshouse experiments that will investigate herbicide resistance in black grass whilst ensuring that information gathered from the project is fed back into the farming community. I am also interested is how science can interact with policy.
+  about: I have previously worked at the University of Sheffield as a research technician undertaking field experiments on the environmental interactions between seed size and seedling traits in different habitat types. I manage the glasshouse experiments that investigate herbicide resistance in black grass, whilst ensuring that information gathered from the project is fed back into the farming community. I am also interested is how science can interact with policy.
 - key: redwards
   sname: R. Edwards
   fname: Rob Edwards
@@ -77,10 +77,18 @@
   sname: K. Norris
   fname: Ken Norris
   image: KenNorris.jpg
-  position: Director of the Centre for Agri-Environmental Research
-  institution: University of Reading
-  url:  http://www.reading.ac.uk/caer/staff_ken_norris.html
+  position: Director of Science
+  institution: Zoological Society of London
+  url:  http://www.zsl.org/users/ken-norris
   about: My research focuses on the inter-relationships between land-use, biodiversity and ecosystem services. I am particularly interested in assessing the environmental risks of agricultural systems, and understanding how these risks might be managed. 
+- key: ctetard
+  sname: C. Tetard-Jones
+  fname: Catherine Tetard-Jones
+  image: CatherineTetard.jpg
+  position: Post Doctoral Research Associate, School of Agriculture, Food and Rural Development
+  institution: University of Newcastle
+  url:  http://www.ncl.ac.uk/afrd/staff/profile/catherine.tetard-jones
+  about: My interests are in charactering mechanisms underpinning evolution of plant defence against environmental stress and mediating elicitors of defence, using a combination of molecular biology, gene expression modelling and ecological bioassays. 
 - key: missing
   sname: null
   fname: Coming Soon
