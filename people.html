@@ -28,10 +28,27 @@ root: "../"
       <p><span data-lorem="4s"></span><a href="#"> Find out more</a></p>
     </div>
   </div>
-  <h3>Project Team</h3>
-  <hr>
 -->
-  {% for member in site.data.group.all-people %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
+  <h3>Core Project Team</h3>
+  <hr>
+  {% for member in site.data.group.core-people %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
+  <div class="thumbnail right-caption">
+	  {% if person.image != null %}
+       <img src="{{ page.root }}assets/images/{{ person.image }}"
+	      width="130" height="130" class="img-rounded">
+      {% else %}
+        <img data-src="holder.js/130x130" alt="..." class="img-rounded">
+      {% endif %}
+    <div class="caption">
+      <h4>{{ person.fname }}<small> {{ person.position }}, {{ person.institution }}</small></h4>
+      <p>{{ person.about }}<a href={{ person.url }}> Home page</a></p>
+    </div>
+  </div>
+  {{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}
+    
+  <h3>Associated Members</h3>
+  <hr>
+  {% for member in site.data.group.other-people %}{% assign i = forloop.index0 %}{% assign in_people = false %}{% for person in site.data.people %}{% if in_people == false and person.key == member %}
   <div class="thumbnail right-caption">
 	  {% if person.image != null %}
        <img src="{{ page.root }}assets/images/{{ person.image }}"
@@ -45,6 +62,7 @@ root: "../"
     </div>
   </div>
   {{ assign in_people = true }}{% endif %}{% endfor %}{% endfor %}    
+
 </div>
 
 </div>

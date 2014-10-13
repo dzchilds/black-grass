@@ -1,5 +1,6 @@
 ---
-all-people: [dzchilds, dcomont, lcrook, redwards, rpfreckleton, jdhadfield, hhicks, pneve, kjnorris, ctetard]
+core-people: [dzchilds, dcomont, lcrook, redwards, rpfreckleton, jdhadfield, hhicks, pneve, kjnorris, ctetard]
+other-people: [adixon]
 core-team: [dzchilds, redwards, rpfreckleton, jdhadfield, pneve, kjnorris]
-pdras: [dcomont, hhicks, ctetard, missing, missing]
+pdras: [dcomont, adixon, hhicks, ctetard, missing, missing]
 ras: [lcrook] 
