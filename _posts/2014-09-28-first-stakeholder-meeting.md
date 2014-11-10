@@ -16,7 +16,7 @@ The afternoon session was run in small break-out groups which discussed 3 topics
 
 1. **Adding value to the BGRI** project and the concept of ‘BGRI-plus’ as a means to facilitate future funding and collaborative opportunities between the BGRI team, stakeholders and the wider research community in the UK and Europe.
 
-*__BGRI-plus__ The core BBSRC/HGCA funded black-grass project (1) can collaborate with partner institutes (2) and individual industrial partners (3):  
+*__BGRI-plus__ The core BBSRC/HGCA funded black-grass project (1) can collaborate with partner institutes (2) and individual industrial partners (3):*  
 <p><img src="/assets/news/BGRIplus.png" class="img-responsive" alt="BGRIplus schematic"></p>
 
 2. **Maximising impact of the results of the BGRI project** and making sure that they’re converted into workable solutions for black-grass management.
