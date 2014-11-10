@@ -12,12 +12,13 @@ Rob Freckleton talked through the black-grass density mapping work that has been
 Seed collection over the summer has supplied seeds for the herbicide resistance trials over the coming months. Paul Neve gave details on plans for the resistance testing, with 190 populations of black-grass to be tested for resistance to both ALS and ACCase herbicides under glasshouse conditions. Plans were also outlined to extract DNA from 36 individuals in each black-grass population and test plants directly for the individual ALS and ACCase resistance mutations present. These experiments should be completed by spring 2015, and the results will inform us of the current extent and types of resistance occurring across the range of farms surveyed this summer.
 Future work looking at the eco-evolutionary modelling of black-grass populations was also discussed, alongside work to explore the economic and environmental consequences of resistance management strategies using farm-scale cost-benefit analyses.
 
-*__BGRI-plus__ The core BBSRC/HGCA funded black-grass project "(1)" can collaborate with partner institutes "(2)" and individual industrial partners "(3)":  
-<p><img src="/assets/news/BGRIplus.png" class="img-responsive" alt="BGRIplus schematic"></p>
-
 The afternoon session was run in small break-out groups which discussed 3 topics:
 
 1. **Adding value to the BGRI** project and the concept of ‘BGRI-plus’ as a means to facilitate future funding and collaborative opportunities between the BGRI team, stakeholders and the wider research community in the UK and Europe.
+
+*__BGRI-plus__ The core BBSRC/HGCA funded black-grass project (1) can collaborate with partner institutes (2) and individual industrial partners (3):  
+<p><img src="/assets/news/BGRIplus.png" class="img-responsive" alt="BGRIplus schematic"></p>
+
 2. **Maximising impact of the results of the BGRI project** and making sure that they’re converted into workable solutions for black-grass management.
 3. **Future linked projects** including new opportunities for collaboration and possible funding streams for researching novel solutions for management of black-grass.
 
