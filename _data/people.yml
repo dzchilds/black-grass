@@ -63,11 +63,6 @@
   institution: University of Sheffield
   url:  null
   about: My research interests centre on sustainable agricultural practices and balancing food production with biodiversity conservation. Agricultural policy changes quickly, and the resulting changes to land-use patterns and land management practices can have wide-ranging ecological impacts. I believe strongly in the need to study, quantify and manage these impacts and the importance of knowledge exchange between science, policy makers and landowners.
-- key: ljones
-  sname: L. Jones
-  fname: Louise Jones
-  url:  https://www.york.ac.uk/biology/research/plant-biology/louise-jones
-  about: <span data-lorem="7s"></span>
 - key: pneve
   sname: P. Neve
   fname: Paul Neve
@@ -107,7 +102,15 @@
   position: Research Scientist, Weed Ecology & Evolution
   institution: Rothamsted Research
   url: http://www.rothamsted.ac.uk/people/hullri
-  about: Richard has worked at Rothamsted Research for over 15 years. He is particularly interested in translating scientific research results into meaningful, practical guidance for farmers and agronomists. Richard is also working on a CRD funded project, "Developing and promoting more sustainable grass-weed control strategies to combat herbicide resistance" and an HGCA funded project "Sustaining winter cropping rotations under threat from herbicide resistant black grass".
+  about: I have worked at Rothamsted Research for over 15 years. I'm particularly interested in translating scientific research results into meaningful, practical guidance for farmers and agronomists. I am also working on a CRD funded project, "Developing and promoting more sustainable grass-weed control strategies to combat herbicide resistance" and an HGCA funded project "Sustaining winter cropping rotations under threat from herbicide resistant black grass".
+  - key: ljones
+  sname: L. Jones
+  fname: Louise Jones
+  image: LouiseJones.jpg
+  position: Senior Lecturer, Dept of Biology
+  institution: University of York
+  url: http://www.york.ac.uk/biology/research/developmental-biology/louise-jones/
+  about: I am a plant molecular biologist with research interests in epigenetics and RNA silencing mechanisms. I am studying how plants use these mechanisms to control gene expression and how heritable changes in gene expression can be triggered by abiotic stresses.
 - key: missing
   sname: null
   fname: Coming Soon
