@@ -13,4 +13,4 @@ The day was rounded off with a farm walk around a nearby farm that is participat
 
 Through this initial meeting, we have developed relationships that will enable the BGRI to establish effective communication with those working at the ‘coal face’ of the burgeoning herbicide resistance problem. Participants in the workshop were enthusiastic about the project and are keen to continue attending. The plan now is to visit some of the different farms of those participating in the group as part of our next few Farmer Focus Workshops.
 
-<p><img src="/assets/news/Workshop.jpg" class="img-responsive" alt="FarmerFocusWorkshop_Feb2015"></p>
+<p><img src="/assets/news/Workshop.jpg" class="img-responsive" alt="FarmerFocusWorkshopFeb2015"></p>
