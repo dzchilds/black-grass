@@ -3,7 +3,7 @@ layout: default
 title: First Farmer Focus Workshop
 ---
 
-The BGRI has held its inaugural Farmer Focus Workshop. Many thanks to all of the farmers who attended the event in Warwickshire last week. This first meeting provided an opportunity for the BGRI team to introduce farmers to the science behind the project and to seek their views on research objectives and priorities.
+On 12th February, the BGRI held its inaugural Farmer Focus Workshop. Many thanks to all of the farmers who attended the event in Warwickshire last week. This first meeting provided an opportunity for the BGRI team to introduce farmers to the science behind the project and to seek their views on research objectives and priorities.
 
 The aim of these workshops is to facilitate communication and knowledge exchange between the BGRI and the farming community. We want to disseminate the findings of our research to farmers, but also to get their feedback on how useful this is and in which direction they think our research should be headed. To do this have established a group of 8 farmers who are interested in the science behind black-grass management.
 
