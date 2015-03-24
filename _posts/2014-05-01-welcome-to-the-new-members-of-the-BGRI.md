@@ -5,7 +5,7 @@ title: Welcome to the new members of the BGRI
 
 Three new members of the BGRI have started this month. Together they will be overseeing the resistance audit and field-scale monitoring of black-grass densities across our netowrk of farms.
 
-##### Laura Crook 
+##### Laura Crook  
 
 I have an undergraduate degree in Environmental Conservation from the University of Bangor. I undertook 2 seasons of lapwing surveying for the RSPB in 2009 and 2010 which involved visiting farmers’ fields in the Hiraethog area of North Wales to record field information and observe breeding pairs of lapwings and their chicks. For the past two and a half years I have worked as a research technician at the University of Sheffield comparing seed size with seedling growth, death and interactions in the environment of various UK grass and broadleaved species. This involved setting up and carrying out experiments in the field and in glasshouses. I also managed the large datasets for the project and carried out pH, KCL extractions and Olsen P tests on soils collected from the field plots. As a research technician on the BGRI project I will mainly be collecting seed, setting up and managing the glasshouse experiments, applying the herbicides and measuring the phenotypic characteristics of the different populations.
 
