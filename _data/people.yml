@@ -111,8 +111,13 @@
   institution: University of York
   url: http://www.york.ac.uk/biology/research/developmental-biology/louise-jones/
   about: I am a plant molecular biologist with research interests in epigenetics and RNA silencing mechanisms. I am studying how plants use these mechanisms to control gene expression and how heritable changes in gene expression can be triggered by abiotic stresses.
-- key: missing
-  sname: null
-  fname: Coming Soon
-  url:  null
-  about: <span data-lorem="7s"></span>
+- key: scoutts
+  sname: S. Coutts
+  fname: Shaun Coutts
+  image: ShaunCoutts.png
+  position: Post Doctoral Research Associate, Department of Animal and Plant Sciences
+  institution: University of Sheffield
+  url: null
+  about: I am a quantitative ecologist who uses statistical, analytical and simulation models to look at pressing environmental issues such as invasive species management and wildlife harvest. I also use these approaches to address fundamental questions in ecology such as what drives population dynamics and adaptation to different environmental stressors? This work encompasses a wide range of topics such as population dynamics, community ecology, dispersal ecology, optimisation and social-economic systems.
+  
+<span data-lorem="7s"></span>
