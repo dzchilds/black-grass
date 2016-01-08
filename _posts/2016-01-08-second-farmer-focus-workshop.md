@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First Farmer Focus Workshop
+title: Second Farmer Focus Workshop
 ---
 
 The BGRI held its second Farmer Focus Workshop on 19th November 2015, in Cambridgeshire, kindly hosted by Paul Drinkwater. The aim of this meeting was to update on the various aspects of the project whilst hearing the farmers own experiences of black-grass control and their views on the BGRI project.
