@@ -13,5 +13,3 @@ The afternoon started with a presentation from Newcastle University comparing th
 
 All participants found the meeting very constructive and many thanks go to the farmers who attended the workshop. The continuing interest in the Farmer Focus groups ensures that these meetings will take place in the future.
 
-
-<p><img src="/assets/news/FFworkshop.png" class="img-responsive" alt="FarmerFocusWorkshopFeb2015"></p>
