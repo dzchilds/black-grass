@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Soapbox Science and Black-grass
+title: BGRI at Black-grass Live 2016
 ---
 
 In July, Bayer held its first ‘Black-grass Live’ event which consisted of a Question-Time style format with a chairperson and a panel of six experts to lead the conversation and answer questions submitted by the audience. BGRI member Richard Hull from Rothamsted Research was invited to be part of the panel and Laura Crook, also from Rothamsted, attended the event. As well as an audience of farmers and journalists, the whole show was streamed live on the internet for the public to watch. 
