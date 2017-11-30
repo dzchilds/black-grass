@@ -69,7 +69,7 @@
   image: PaulNeve.png
   position: Senior Research Scientist, Weed Ecology & Evolution
   institution: Rothamsted Research
-  url:  http://www.rothamsted.ac.uk/people/nevep
+  url:  https://www.rothamsted.ac.uk/our-people/paul-neve
   about: With a particular interest in herbicide resistance, my research is focussed on understanding the ecological and evolutionary processes that result in the establishment, persistence and spread of weed populations in agroecosystems. Working with weed populations, simulation models and model organisms, I investigate strategies for ‘evolution-free’ management of agricultural weeds.
 - key: lnguyen
   sname: L. Nguyen
@@ -142,4 +142,4 @@
   position: Post Doctoral Research Associate
   institution: University of Newcastle
   url: null
-  about: I am interested in the molecular basis of multiple-herbicide resistance in black grass. My work focuses on proteins of the GST and ABC transport families that are up regulated in resistant populations, and I am trying to understand the specific roles of those proteins and their contribution to the resistance phenotype..
+  about: I am interested in the molecular basis of multiple-herbicide resistance in black grass. My work focuses on proteins of the GST and ABC transport families that are up regulated in resistant populations, and I am trying to understand the specific roles of those proteins and their contribution to the resistance phenotype.
