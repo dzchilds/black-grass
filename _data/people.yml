@@ -127,3 +127,19 @@
   institution: Zoological Society of London
   url: null
   about: My research looks at relationships between agricultural systems and biodiversity conservation. I am especially interested in finding ways of maximising food production whilst simultaneously conserving biodiversity and providing other environmental benefits.
+- key: nonkokesung
+  sname: N. Onkokesung
+  fname: Nawaporn Onkokesung
+  image: Nawaporn.jpg
+  position: Post Doctoral Research Associate
+  institution: University of Newcastle
+  url: null
+  about: I am a plant molecular biologist. My research interests center around plant adaptive responses to environmental stresses. I will implement multidisciplinary approaches ranging from plant physiology to molecular biology to understand the underlying molecular mechanisms of non-target site herbicide resistance, and the fitness costs of enhanced metabolic resistances in Blackgrass populations.
+- key: acavalleri
+  sname: A. Goldberg Cavalleri
+  fname: Alina Goldberg Cavalleri
+  image: Alina.jpg
+  position: Post Doctoral Research Associate
+  institution: University of Newcastle
+  url: null
+  about: I am interested in the molecular basis of multiple-herbicide resistance in black grass. My work focuses on proteins of the GST and ABC transport families that are up regulated in resistant populations, and I am trying to understand the specific roles of those proteins and their contribution to the resistance phenotype.
