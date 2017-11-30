@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Global Herbicide Resistance Challenge: A technician's perspective
+title: Global Herbicide Resistance Challenge, A technician's perspective
 ---
 
 In May this year I attended the Global Herbicide Resistance Challenge conference in Denver, Colorado, USA along with five other colleagues from Rothamsted Research. This was a great opportunity to showcase some of the research from the BGRI that we have been working on for the past three years and a chance to network with scientists working on herbicide resistance from across the world. This was also a particularly exciting trip for myself as technicians do not always attend conferences so I was grateful of the opportunity to be part of an international meeting and present my work.
